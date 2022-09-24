@@ -28,6 +28,11 @@ public class ArithmetischeOperationen {
         System.out.println(++b);
         System.out.println("b =" + ++b);
 
+        String test1 = new String("Hallo");
+        String test2 = new String("Hallo");
+        boolean sameValue = test1.equals(test2);
+        System.out.println(sameValue);
+
 
 
     }
